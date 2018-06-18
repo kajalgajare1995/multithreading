@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"commit process will done");
     self.operationQueue=[[NSOperationQueue alloc]init];
     // Do any additional setup after loading the view.
 }
